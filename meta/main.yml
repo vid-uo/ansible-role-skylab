@@ -15,3 +15,4 @@ dependencies:
   - roderik.superlumic-mysql
   - roderik.superlumic-php
   - roderik.superlumic-postgresql
+  - roderik.superlumic-modjk

@@ -4,3 +4,4 @@
 - src: roderik.superlumic-mysql
 - src: roderik.superlumic-postgresql
 - src: roderik.superlumic-php
+- src: roderik.superlumic-modjk

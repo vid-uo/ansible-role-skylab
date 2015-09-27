@@ -12,6 +12,7 @@ Ansible role to install Skylab on OSX. This role is part of the Superlumic proje
 * [roderik.superlumic-mysql](https://github.com/superlumic/ansible-role-mysql)
 * [roderik.superlumic-php](https://github.com/superlumic/ansible-role-php)
 * [roderik.superlumic-postgresql](https://github.com/superlumic/ansible-role-postgresql)
+* [roderik.superlumic-modjk](https://github.com/superlumic/ansible-role-modjk)
 
 # Usage
 
