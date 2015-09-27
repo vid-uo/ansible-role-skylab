@@ -3,6 +3,8 @@ webserver:
     hostmachine: dev.kunstmaan.be
 
 users:
+    superuser:      root
+    supergroup:     wheel
     wwwuser: {{ lookup('env','USER') }}
 
 mysql:
