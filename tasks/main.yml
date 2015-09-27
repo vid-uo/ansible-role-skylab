@@ -91,4 +91,4 @@
 
 - name: symlink java7
   become: yes
-  file: src=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/ path=/opt/jdk/default/ state=link force=yes
+  file: src=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home path=/opt/jdk/default state=link force=yes
