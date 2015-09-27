@@ -4,6 +4,13 @@
   become: yes
   shell: cat /etc/auto_master | grep -v home > /tmp/am; mv /tmp/am /etc/auto_master; automount -vc
 
+- name: install gnu-tar
+  homebrew: name=gnu-tar state=latest
+
+- name: symlink gnutar
+  become: yes
+  file: src=/usr/local/bin/gtar path=/usr/local/bin/tar state=link force=yes
+
 - name: create skylab directories
   become: yes
   file:
