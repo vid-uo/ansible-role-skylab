@@ -16,3 +16,4 @@ dependencies:
   - roderik.superlumic-php
   - roderik.superlumic-postgresql
   - roderik.superlumic-modjk
+  - roderik.superlumic-node
