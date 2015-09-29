@@ -84,11 +84,11 @@
     - uglify-js
     - uglifycss
 
-- name: install java7
+- name: install java6
   homebrew_cask: name={{item}} state=present
   with_items:
-    - java7
+    - java6
 
 - name: symlink java7
   become: yes
-  file: src=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home path=/opt/jdk/default state=link force=yes
+  file: src=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/ path=/opt/jdk/default state=link force=yes
