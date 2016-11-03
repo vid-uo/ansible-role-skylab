@@ -1,8 +1,8 @@
 ---
 
-- src: roderik.superlumic-homebrew
-- src: roderik.superlumic-mysql
-- src: roderik.superlumic-postgresql
-- src: roderik.superlumic-php
-- src: roderik.superlumic-modjk
-- src: roderik.superlumic-node
+- src: vid.superlumic-homebrew
+- src: vid.superlumic-mysql
+- src: vid.superlumic-postgresql
+- src: vid.superlumic-php
+- src: vid.superlumic-modjk
+- src: vid.superlumic-node
